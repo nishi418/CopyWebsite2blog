@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+  box-sizing: border-box;
+  color: #444;
+}
+
+head {
+  display: none;
+}
+
+script {
+  display: none;
+}
+
+header {
+  margin: 60px 40px;
+  background: #fff;
+}
+
+#headerContainer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 1035px;
+}
+
+#headTop {
+  display: table;
+  margin-bottom: 70px;
+  width: 100%;
+  max-width: 1035px;
+}
+
+
+#headTitle {
+  display: table-cell;
+  vertical-align: center;
+}
+
+#headTitle h2 {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#headTitle p {
+  margin-top: 5px;
+  color: #777777;
+  padding-right: 0;
+  text-align: left;
+}
+
+#headNavi {
+  display: table-cell;
+  vertical-align: center;
+}
+
+.naviMenu {
+  display: flex;
+  margin: 0 auto;
+  height: 2rem;
+  width: 100%;
+}
+
+.naviMenu > li {
+  width: 25%;
+}
+
+.naviMenu li {
+  position: relative;
+  list-style: none;
+}
+
+.naviMenu li a {
+  display: block;
+  text-decoration: none;
+  background: #fff;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.naviMenu a {
+  text-decoration: none;
+  color: #444;
+}
+
+.naviMenu li a:hover {
+  color: olive;
+}
+
+.naviMenu li li {
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.naviMenu li li a {
+  border: 1px solid #eee;
+}
+
+.naviMenu li:hover > ul > li {
+  height: 2rem;
+  overflow: visible;
+}
+
+#search-field {
+  display: table-cell;
+  vertical-align: center;
+  height: 30px;
+  width: 150px;
+}
+
+#headImage {
+  margin-bottom: 90px;
+}
+
+#headImage img {
+  width: 1035px;
+  height: 500px;
+}
+
+#headText {
+  color: #777777;
+  margin-bottom: 90px;
+  padding-bottom: 90px;
+}
+
+#headSearch {
+  text-align: right;
+}
+
+.contentsWrapper {
+  max-width: 1035px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+}
+
+#sideDate {
+  float: left;
+  width: 30%;
+  height: 200px;
+}
+
+#sideDate p {
+  margin-right: 45px;
+  color: #777777;
+}
+
+#contentsMain {
+  float: right;
+  width: 70%;
+  text-align: left;
+}
+
+#mainTitle {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#contentsNaviMenu {
+  float: left;
+  margin-bottom: 75px;
+}
+
+#contentsNaviMenu a {  
+  text-decoration: none;
+  color: #777777;
+  border: 1px solid #777777;
+  padding: 15px 15px;
+  margin-right: 5px;
+  font-size: 15px;
+  margin-top: 75px;
+  display: inline-block;
+}
+
+#contentsNaviMenu a:hover {
+  color: #444;
+  cursor: pointer;
+}
+
+#introWrapper {
+  width: 100%;
+  max-width: 1035px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+}
+
+#introContainer {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+}
+
+#intro1 {
+  width: 25%;
+  margin-right: 40px;
+}
+
+.intro1Top {
+  display: flex;
+}
+
+#introImage img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+#intro1 h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#introIcon .fa{
+  margin-right: 10px;
+  font-size: 20px;
+  color: #777777;
+}
+
+#intro1 p {
+  font-size: 15px;
+  color: #777777;
+}
+
+#intro2 {
+  width: 25%;
+  margin-right: 20px;
+}
+
+#intro2 h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#intro2 p {
+  font-size: 15px;
+  color: #777777;
+}
+
+#intro3 {
+  width: 25%;
+  margin-right: 20px;
+}
+
+#intro3 h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#intro3Topic a {
+  font-size: 20px;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+#intro3Topic a:hover {
+  color: olive;
+  cursor: pointer;
+}
+
+#intro3Date p {
+  font-size: 15px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+#intro4 {
+  width: 25%;
+  margin-right: 0px;
+}
+
+#intro4 h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#intro4Text a {
+  font-size: 20px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+#intro4Text a:hover {
+  color: olive;
+  cursor: pointer;
+}
+
+#search-field {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  width: 100%;
+  max-width: 1035px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerContainer {
+  display: flex;
+}
+
+#footerIcon .fa{
+  font-size: 25px;
+  margin-right: 15px;
+  color: #777777;
+}
+
+#footerCopyWrite p {
+  margin-left: 175%;
+  text-align: center;
+}
